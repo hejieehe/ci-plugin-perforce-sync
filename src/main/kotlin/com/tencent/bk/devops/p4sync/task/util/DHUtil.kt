@@ -20,9 +20,9 @@ import javax.crypto.spec.SecretKeySpec
  */
 
 object DHUtil {
-    private val KEY_ALGORITHM = "DH"
-    private val KEY_PROVIDER = "BC"
-    private val SECRECT_ALGORITHM = "DES"
+    private const val KEY_ALGORITHM = "DH"
+    private const val KEY_PROVIDER = "BC"
+    private const val SECRECT_ALGORITHM = "DES"
 
     // private val KEY_SIZE = 1024
     private val p = BigInteger("16560215747140417249215968347342080587", 16)

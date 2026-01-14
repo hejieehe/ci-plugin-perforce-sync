@@ -2,6 +2,7 @@ package com.tencent.bk.devops.p4sync.task.service
 
 import com.tencent.bk.devops.p4sync.task.enum.ticket.CredentialType
 import com.tencent.bk.devops.p4sync.task.util.CredentialUtils
+
 class AuthService {
     /**
      * 读取凭证信息

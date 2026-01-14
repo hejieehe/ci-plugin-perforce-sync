@@ -16,6 +16,7 @@ object CredentialUtils {
         return getCredentialWithType(credentialId, showErrorLog).first
     }
 
+    @SuppressWarnings("NestedBlockDepth")
     fun getCredentialWithType(credentialId: String, showErrorLog: Boolean = true): Pair<List<String>, CredentialType> {
         if (credentialId.trim().isEmpty()) {
             throw IllegalArgumentException("The credential Id is empty")
